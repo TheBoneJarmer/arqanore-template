@@ -1,2 +1,2 @@
-# Arqanore Templates
-This repo contains project templates I use for debugging Arqanore, JArqanore or Arqanite. Feel free to use them for your own projects or for learning purposes.
+# Arqanore Template
+This repo contains a project template for Arqanore that contains all required headers and library files to quickly setup a game project.

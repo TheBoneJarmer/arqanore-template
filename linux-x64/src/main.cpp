@@ -20,11 +20,7 @@ void on_update(Window *window, double delta) {
     }
 }
 
-void on_render2d(Window *window) {
-
-}
-
-void on_render3d(Window *window) {
+void on_render(Window *window) {
 
 }
 
@@ -34,8 +30,7 @@ int main() {
         window.on_open(on_open);
         window.on_close(on_close);
         window.on_update(on_update);
-        window.on_render2d(on_render2d);
-        window.on_render3d(on_render3d);
+        window.on_render(on_render);
         window.open(false, true, true);
     } catch (ArqanoreException& ex) {
         std::cerr << ex.what() << std::endl;

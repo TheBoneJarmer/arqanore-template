@@ -1,7 +1,6 @@
 #pragma once
 
-#include "soloudw/soloud.h"
-#include "arqanore/sound.h"
+#include "soloud.h"
 
 namespace arqanore {
     class Audio {

@@ -1,5 +1,6 @@
-out/
-build/
+.idea/
+.vs/
+.vscode/
 
-# Linux build output
-app
+build/
+cmake-build-debug/
